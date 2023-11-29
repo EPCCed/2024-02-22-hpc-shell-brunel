@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
-<title>Lesson Title: Key Points</title>
+<title>Introduction to Using the Shell in a High-Performance Computing Context: Key Points</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="assets/styles.css">
 <script src="assets/scripts.js" type="text/javascript"></script><!-- mathjax --><script type="text/x-mathjax-config">
@@ -33,12 +33,12 @@
   <div class="container-fluid top-nav-container">
     <div class="col-md-6">
       <div class="large-logo">
-        <img alt="Carpentries Incubator" src="assets/images/incubator-logo.svg"><abbr class="icon" title="This lesson is in the pre-alpha phase, which means that it is in early development, but has not yet been taught." style="text-decoration: unset">
+        <img alt="Carpentries Incubator" src="assets/images/incubator-logo.svg"><abbr class="icon" title="This lesson is in the beta phase, which means that it is ready for teaching by instructors outside of the original author team." style="text-decoration: unset">
            
-          <a href="https://cdh.carpentries.org/the-lesson-life-cycle.html#early-development-pre-alpha-through-alpha" class="external-link alert-link" style="color: #383838">Pre-Alpha
-            <i aria-hidden="true" class="icon" data-feather="alert-octagon" style="color: #FF4955; border-radius: 5px"></i>
+          <a href="https://cdh.carpentries.org/the-lesson-life-cycle.html#polishing-beta-stage" class="external-link alert-link" style="color: #383838">Beta
+            <i aria-hidden="true" class="icon" data-feather="alert-circle" style="color: #001483; border-radius: 5px"></i>
           </a>
-          <span class="visually-hidden">This lesson is in the pre-alpha phase, which means that it is in early development, but has not yet been taught.</span>
+          <span class="visually-hidden">This lesson is in the beta phase, which means that it is ready for teaching by instructors outside of the original author team.</span>
         </abbr>
         
       </div>
@@ -65,7 +65,7 @@
       <img class="small-logo" alt="Carpentries Incubator" src="assets/images/incubator-logo-sm.svg">
 </div>
     <div class="lesson-title-md">
-      Lesson Title
+      Introduction to Using the Shell in a High-Performance Computing Context
     </div>
     <div class="search-icon-sm">
       <!-- TODO: do not show until we have search
@@ -76,7 +76,7 @@
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 <li class="nav-item">
           <span class="lesson-title">
-            Lesson Title
+            Introduction to Using the Shell in a High-Performance Computing Context
           </span>
         </li>
         <li class="nav-item">
@@ -93,7 +93,7 @@
             More <i data-feather="chevron-down"></i>
           </button>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-<li><a class="dropdown-item" href="reference.html">Reference</a></li>
+<li><a class="dropdown-item" href="workshop-details.html">Workshop Details</a></li>
           </ul>
 </li>
       </ul>
@@ -108,7 +108,7 @@
   </div>
 <!--/div.container-fluid -->
 </nav><div class="col-md-12 mobile-title">
-  Lesson Title
+  Introduction to Using the Shell in a High-Performance Computing Context
 </div>
 
 <aside class="col-md-12 lesson-progress"><div style="width: %" class="percentage">
@@ -181,7 +181,67 @@
 <div class="accordion accordion-flush" id="accordionFlush2">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading2">
-        <a href="introduction.html">1. Using Markdown</a>
+        <a href="10-hpc-intro.html">1. Why Use HPC?</a>
+    </div>
+<!--/div.accordion-header-->
+        
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush3">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading3">
+        <a href="11-connecting.html">2. Connecting to the remote HPC system</a>
+    </div>
+<!--/div.accordion-header-->
+        
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush4">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading4">
+        <a href="13-navigation.html">3. Moving around and looking at things</a>
+    </div>
+<!--/div.accordion-header-->
+        
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush5">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading5">
+        <a href="14-files.html">4. Working with files</a>
+    </div>
+<!--/div.accordion-header-->
+        
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush6">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading6">
+        <a href="15-wildcards-pipes.html">5. Wildcards and pipes</a>
+    </div>
+<!--/div.accordion-header-->
+        
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush7">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading7">
+        <a href="16-scripts.html">6. Scripts, variables, and loops</a>
     </div>
 <!--/div.accordion-header-->
         
@@ -214,7 +274,7 @@
                       <li>
                         <a href="profiles.html">Learner Profiles</a>
                       </li>
-                      <li><a href="reference.html">Reference</a></li>
+                      <li><a href="workshop-details.html">Workshop Details</a></li>
                     </ul>
 </div>
                 </div>
@@ -244,17 +304,73 @@
     <main id="main-content" class="main-content"><div class="container lesson-content">
         
         
-<section id="introduction"><h2 class="section-heading"><a href="introduction.html">Using Markdown</a></h2>
+<section id="10-hpc-intro"><h2 class="section-heading"><a href="10-hpc-intro.html">Why Use HPC?Why Use These Computers?<a class="anchor" aria-label="anchor" href="#why-use-these-computers"></a></a></h2>
 <hr class="half-width">
 <ul>
-<li>Use <code>.md</code> files for episodes when you want static
-content</li>
-<li>Use <code>.Rmd</code> files for episodes when you need to generate
-output</li>
-<li>Run <code>sandpaper::check_lesson()</code> to identify any issues
-with your lesson</li>
-<li>Run <code>sandpaper::build_lesson()</code> to preview your lesson
-locally</li>
+<li>High Performance Computing (HPC) typically involves connecting to
+very large computing systems elsewhere in the world.</li>
+<li>These HPC systems can be used to do work that would either be
+impossible or much slower or smaller systems.</li>
+<li>The standard method of interacting with such systems is via a
+command line interface such as Bash.</li>
+</ul></section><section id="11-connecting"><h2 class="section-heading"><a href="11-connecting.html">Connecting to the remote HPC systemOpening a Terminal<a class="anchor" aria-label="anchor" href="#opening-a-terminal"></a></a></h2>
+<hr class="half-width">
+<ul>
+<li>To connect to a remote HPC system using SSH and a password, run</li>
+</ul>
+<div class="codewrapper sourceCode" id="cb8">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ssh</span> yourUsername@remote.computer.address</span></code></pre>
+</div>
+<ul>
+<li>To connect to a remote HPC system using SSH and an SSH key, run</li>
+</ul>
+<div class="codewrapper sourceCode" id="cb9">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ssh</span> <span class="at">-i</span> ~/.ssh/key_for_remote_computer yourUsername@remote.computer.address</span></code></pre>
+</div></section><section id="13-navigation"><h2 class="section-heading"><a href="13-navigation.html">Moving around and looking at things</a></h2>
+<hr class="half-width">
+<ul>
+<li>Your current directory is referred to as the working directory.</li>
+<li>To change directories, use <code>cd</code>.</li>
+<li>To view files, use <code>ls</code>.</li>
+<li>You can view help for a command with <code>man command</code> or
+<code>command --help</code>.</li>
+<li>Hit <kbd>Tab</kbd> to autocomplete whatever you’re currently
+typing.</li>
+</ul></section><section id="14-files"><h2 class="section-heading"><a href="14-files.html">Working with files</a></h2>
+<hr class="half-width">
+<ul>
+<li>Use <code>nano</code> to create or edit text files from a
+terminal.</li>
+<li>Use <code>cat file1 [file2 ...]</code> to print the contents of one
+or more files to the terminal.</li>
+<li>Use <code>mv old dir</code> to move a file or directory
+<code>old</code> to another directory <code>dir</code>.</li>
+<li>Use <code>mv old new</code> to rename a file or directory
+<code>old</code> to a <code>new</code> name.</li>
+<li>Use <code>cp old new</code> to copy a file under a new name or
+location.</li>
+<li>Use <code>cp old dir</code> copies a file <code>old</code> into a
+directory <code>dir</code>.</li>
+<li>Use <code>rm old</code> to delete (remove) a file.</li>
+<li>File extensions are entirely arbitrary on UNIX systems.</li>
+</ul></section><section id="15-wildcards-pipes"><h2 class="section-heading"><a href="15-wildcards-pipes.html">Wildcards and pipes</a></h2>
+<hr class="half-width">
+<ul>
+<li>The <code>*</code> wildcard is used as a placeholder to match any
+text that follows a pattern.</li>
+<li>Redirect a command’s output to a file with <code>&gt;</code>.</li>
+<li>Commands can be chained with <code>|</code>
+</li>
+</ul></section><section id="16-scripts"><h2 class="section-heading"><a href="16-scripts.html">Scripts, variables, and loops</a></h2>
+<hr class="half-width">
+<ul>
+<li>A shell script is just a list of bash commands in a text file.</li>
+<li>To make a shell script file executable, run
+<code>chmod +x script.sh</code>.</li>
 </ul></section>
 </div>
     </main>
@@ -268,12 +384,12 @@ locally</li>
 				<p>This lesson is subject to the <a href="CODE_OF_CONDUCT.html">Code of Conduct</a></p>
         <p>
         
-        <a href="https://github.com/carpentries/workbench-template-md/edit/main/README.md" class="external-link">Edit on GitHub</a>
+        <a href="https://github.com/EPCCed/2023-06-28-uoe-hpcintro/edit/main/README.md" class="external-link">Edit on GitHub</a>
         
 	
-        | <a href="https://github.com/carpentries/workbench-template-md/blob/main/CONTRIBUTING.md" class="external-link">Contributing</a> 
-        | <a href="https://github.com/carpentries/workbench-template-md/" class="external-link">Source</a></p>
-				<p><a href="https://github.com/carpentries/workbench-template-md/blob/main/CITATION" class="external-link">Cite</a> | <a href="mailto:team@carpentries.org">Contact</a> | <a href="https://carpentries.org/about/" class="external-link">About</a></p>
+        | <a href="https://github.com/EPCCed/2023-06-28-uoe-hpcintro/blob/main/CONTRIBUTING.md" class="external-link">Contributing</a> 
+        | <a href="https://github.com/EPCCed/2023-06-28-uoe-hpcintro/" class="external-link">Source</a></p>
+				<p><a href="https://github.com/EPCCed/2023-06-28-uoe-hpcintro/blob/main/CITATION" class="external-link">Cite</a> | <a href="mailto:support@archer2.ac.uk">Contact</a> | <a href="https://carpentries.org/about/" class="external-link">About</a></p>
 			</div>
 			<div class="col-md-6">
         
@@ -295,15 +411,15 @@ locally</li>
     {
   "@context": "https://schema.org",
   "@type": "TrainingMaterial",
-  "@id": "https://carpentries.github.io/workbench-template-md/key-points.html",
+  "@id": "https://EPCCed.github.io/2023-06-28-uoe-hpcintro/key-points.html",
   "dct:conformsTo": "https://bioschemas.org/profiles/TrainingMaterial/1.0-RELEASE",
   "description": "A Carpentries Lesson teaching foundational data and coding skills to researchers worldwide",
-  "keywords": "software, data, lesson, The Carpentries",
+  "keywords": "software, data, lesson, The Carpentries, HPC, EPCC",
   "name": "Key Points",
   "creativeWorkStatus": "active",
-  "url": "https://carpentries.github.io/workbench-template-md/key-points.html",
-  "identifier": "https://carpentries.github.io/workbench-template-md/key-points.html",
-  "dateCreated": "2023-11-29",
+  "url": "https://EPCCed.github.io/2023-06-28-uoe-hpcintro/key-points.html",
+  "identifier": "https://EPCCed.github.io/2023-06-28-uoe-hpcintro/key-points.html",
+  "dateCreated": "2023-11-17",
   "dateModified": "2023-11-29",
   "datePublished": "2023-11-29"
 }
