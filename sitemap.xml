@@ -1,117 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://EPCCed.github.io/2024-01-18-hpc-shell-noc/01-introduction.html</loc>
+    <loc>https://EPCCed.github.io/2024-02-22-hpc-shell-brunel/01-introduction.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2024-01-18-hpc-shell-noc/10-hpc-intro.html</loc>
+    <loc>https://EPCCed.github.io/2024-02-22-hpc-shell-brunel/10-hpc-intro.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2024-01-18-hpc-shell-noc/11-connecting.html</loc>
+    <loc>https://EPCCed.github.io/2024-02-22-hpc-shell-brunel/11-connecting.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2024-01-18-hpc-shell-noc/13-navigation.html</loc>
+    <loc>https://EPCCed.github.io/2024-02-22-hpc-shell-brunel/13-navigation.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2024-01-18-hpc-shell-noc/14-files.html</loc>
+    <loc>https://EPCCed.github.io/2024-02-22-hpc-shell-brunel/14-files.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2024-01-18-hpc-shell-noc/15-wildcards-pipes.html</loc>
+    <loc>https://EPCCed.github.io/2024-02-22-hpc-shell-brunel/15-wildcards-pipes.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2024-01-18-hpc-shell-noc/16-scripts.html</loc>
+    <loc>https://EPCCed.github.io/2024-02-22-hpc-shell-brunel/16-scripts.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2024-01-18-hpc-shell-noc/404.html</loc>
+    <loc>https://EPCCed.github.io/2024-02-22-hpc-shell-brunel/404.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2024-01-18-hpc-shell-noc/CODE_OF_CONDUCT.html</loc>
+    <loc>https://EPCCed.github.io/2024-02-22-hpc-shell-brunel/CODE_OF_CONDUCT.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2024-01-18-hpc-shell-noc/LICENSE.html</loc>
+    <loc>https://EPCCed.github.io/2024-02-22-hpc-shell-brunel/LICENSE.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2024-01-18-hpc-shell-noc/aio.html</loc>
+    <loc>https://EPCCed.github.io/2024-02-22-hpc-shell-brunel/aio.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2024-01-18-hpc-shell-noc/images.html</loc>
+    <loc>https://EPCCed.github.io/2024-02-22-hpc-shell-brunel/images.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2024-01-18-hpc-shell-noc/index.html</loc>
+    <loc>https://EPCCed.github.io/2024-02-22-hpc-shell-brunel/index.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2024-01-18-hpc-shell-noc/instructor/01-introduction.html</loc>
+    <loc>https://EPCCed.github.io/2024-02-22-hpc-shell-brunel/instructor/01-introduction.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2024-01-18-hpc-shell-noc/instructor/10-hpc-intro.html</loc>
+    <loc>https://EPCCed.github.io/2024-02-22-hpc-shell-brunel/instructor/10-hpc-intro.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2024-01-18-hpc-shell-noc/instructor/11-connecting.html</loc>
+    <loc>https://EPCCed.github.io/2024-02-22-hpc-shell-brunel/instructor/11-connecting.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2024-01-18-hpc-shell-noc/instructor/13-navigation.html</loc>
+    <loc>https://EPCCed.github.io/2024-02-22-hpc-shell-brunel/instructor/13-navigation.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2024-01-18-hpc-shell-noc/instructor/14-files.html</loc>
+    <loc>https://EPCCed.github.io/2024-02-22-hpc-shell-brunel/instructor/14-files.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2024-01-18-hpc-shell-noc/instructor/15-wildcards-pipes.html</loc>
+    <loc>https://EPCCed.github.io/2024-02-22-hpc-shell-brunel/instructor/15-wildcards-pipes.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2024-01-18-hpc-shell-noc/instructor/16-scripts.html</loc>
+    <loc>https://EPCCed.github.io/2024-02-22-hpc-shell-brunel/instructor/16-scripts.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2024-01-18-hpc-shell-noc/instructor/404.html</loc>
+    <loc>https://EPCCed.github.io/2024-02-22-hpc-shell-brunel/instructor/404.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2024-01-18-hpc-shell-noc/instructor/CODE_OF_CONDUCT.html</loc>
+    <loc>https://EPCCed.github.io/2024-02-22-hpc-shell-brunel/instructor/CODE_OF_CONDUCT.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2024-01-18-hpc-shell-noc/instructor/LICENSE.html</loc>
+    <loc>https://EPCCed.github.io/2024-02-22-hpc-shell-brunel/instructor/LICENSE.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2024-01-18-hpc-shell-noc/instructor/aio.html</loc>
+    <loc>https://EPCCed.github.io/2024-02-22-hpc-shell-brunel/instructor/aio.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2024-01-18-hpc-shell-noc/instructor/images.html</loc>
+    <loc>https://EPCCed.github.io/2024-02-22-hpc-shell-brunel/instructor/images.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2024-01-18-hpc-shell-noc/instructor/index.html</loc>
+    <loc>https://EPCCed.github.io/2024-02-22-hpc-shell-brunel/instructor/index.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2024-01-18-hpc-shell-noc/instructor/instructor-notes.html</loc>
+    <loc>https://EPCCed.github.io/2024-02-22-hpc-shell-brunel/instructor/instructor-notes.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2024-01-18-hpc-shell-noc/instructor/introduction.html</loc>
+    <loc>https://EPCCed.github.io/2024-02-22-hpc-shell-brunel/instructor/introduction.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2024-01-18-hpc-shell-noc/instructor/key-points.html</loc>
+    <loc>https://EPCCed.github.io/2024-02-22-hpc-shell-brunel/instructor/key-points.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2024-01-18-hpc-shell-noc/instructor/profiles.html</loc>
+    <loc>https://EPCCed.github.io/2024-02-22-hpc-shell-brunel/instructor/profiles.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2024-01-18-hpc-shell-noc/instructor/reference.html</loc>
+    <loc>https://EPCCed.github.io/2024-02-22-hpc-shell-brunel/instructor/reference.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2024-01-18-hpc-shell-noc/instructor/workshop-details.html</loc>
+    <loc>https://EPCCed.github.io/2024-02-22-hpc-shell-brunel/instructor/workshop-details.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2024-01-18-hpc-shell-noc/instructor-notes.html</loc>
+    <loc>https://EPCCed.github.io/2024-02-22-hpc-shell-brunel/instructor-notes.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2024-01-18-hpc-shell-noc/introduction.html</loc>
+    <loc>https://EPCCed.github.io/2024-02-22-hpc-shell-brunel/introduction.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2024-01-18-hpc-shell-noc/key-points.html</loc>
+    <loc>https://EPCCed.github.io/2024-02-22-hpc-shell-brunel/key-points.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2024-01-18-hpc-shell-noc/profiles.html</loc>
+    <loc>https://EPCCed.github.io/2024-02-22-hpc-shell-brunel/profiles.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2024-01-18-hpc-shell-noc/reference.html</loc>
+    <loc>https://EPCCed.github.io/2024-02-22-hpc-shell-brunel/reference.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2024-01-18-hpc-shell-noc/workshop-details.html</loc>
+    <loc>https://EPCCed.github.io/2024-02-22-hpc-shell-brunel/workshop-details.html</loc>
   </url>
 </urlset>
