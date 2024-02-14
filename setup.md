@@ -75,7 +75,7 @@ a Unix/Linux emulator.
 
 For advanced users, you may choose one of the following alternatives: 
 
- * Install the [Windows Subsystem for   Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+ * Install the [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
  * Use the Windows [Powershell](https://docs.microsoft.com/en-us/powershell/scripting/learn/remoting/ssh-remoting-in-powershell-core?view=powershell-7)
  * Read up on [Using a Unix/Linux emulator (Cygwin) or Secure Shell (SSH) client (Putty)](https://faculty.smu.edu/reynolds/unixtut/windows.html)
 > ## Warning
@@ -204,7 +204,7 @@ If you are already registered on the SAFE you do not need to re-register. Please
 
 1. [Login to SAFE](https://safe.epcc.ed.ac.uk)
 2. Go to the Menu "Login accounts" and select "Request login account"
-3. Choose the `ta133` project “Choose Project for Machine Account” box and click "Next"
+3. Choose the `ta140` project “Choose Project for Machine Account” box and click "Next"
 4. On the next page, the ARCHER2 system should be selected. Click "Next"
 5. Enter the username you would prefer to use on ARCHER2. Every username must be unique, so if your chosen name is taken, you will need to choose another
 
