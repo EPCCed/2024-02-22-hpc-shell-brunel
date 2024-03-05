@@ -272,7 +272,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Working with files</h1>
-        <p>Last updated on 2024-02-27 |
+        <p>Last updated on 2024-03-05 |
         
         <a href="https://github.com/EPCCed/2024-02-22-hpc-shell-brunel/edit/main/episodes/14-files.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
         
@@ -313,9 +313,9 @@ home directory and creating a scratch directory:</p>
 <div class="codewrapper sourceCode" id="cb1">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> cd ~</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> mkdir hpc-test</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> cd hpc-test</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="ex">$</span> cd ~</span>
+<span id="cb1-2"><a href="#cb1-2" tabindex="-1"></a><span class="ex">$</span> mkdir hpc-test</span>
+<span id="cb1-3"><a href="#cb1-3" tabindex="-1"></a><span class="ex">$</span> cd hpc-test</span></code></pre>
 </div>
 <section id="creating-and-editing-text-files"><h2 class="section-heading">Creating and Editing Text Files<a class="anchor" aria-label="anchor" href="#creating-and-editing-text-files"></a>
 </h2>
@@ -333,9 +333,10 @@ a new file now, type whatever you want in it, and save it.</p>
 <div class="codewrapper sourceCode" id="cb2">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> nano draft.txt</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a><span class="ex">$</span> nano draft.txt</span></code></pre>
 </div>
-<figure><img src="fig/nano-screenshot.png" alt="" class="figure mx-auto d-block"><figcaption>Nano in action</figcaption></figure><p>Nano defines a number of <em>shortcut keys</em> (prefixed by the
+<figure><img src="fig/nano-screenshot.png" alt="Nano in action" class="figure mx-auto d-block"><div class="figcaption">Nano in action</div>
+</figure><p>Nano defines a number of <em>shortcut keys</em> (prefixed by the
 <kbd>Control</kbd> or <kbd>Ctrl</kbd> key) to perform actions such as
 saving the file or exiting the editor. Here are the shortcut keys for a
 few common actions:</p>
@@ -351,13 +352,12 @@ cut a chunk of text lines.</p></li>
 <li><p><kbd>Ctrl</kbd>+<kbd>U</kbd> — paste the cut text line (or
 lines). This command can be repeated to paste the same text
 elsewhere.</p></li>
-</ul><div id="using-vim-as-a-text-editor" class="callout callout">
+</ul><div id="callout1" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="using-vim-as-a-text-editor" class="callout-inner">
-<h3 class="callout-title">Using<code>vim</code>as a text editor<a class="anchor" aria-label="anchor" href="#using-vim-as-a-text-editor"></a>
-</h3>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="using-vim-as-a-text-editor">Using <code>vim</code> as a text editor<a class="anchor" aria-label="anchor" href="#using-vim-as-a-text-editor"></a></h3>
 <div class="callout-content">
 <p>From time to time, you may encounter the <code>vim</code> text
 editor. Although <code>vim</code> isn’t the easiest or most
@@ -384,7 +384,7 @@ there are a few commands you should be aware of:</p>
 <div class="codewrapper sourceCode" id="cb3">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> ls</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a><span class="ex">$</span> ls</span></code></pre>
 </div>
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -399,7 +399,7 @@ ways of doing this, one of which is reading the entire file with
 <div class="codewrapper sourceCode" id="cb5">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> cat draft.txt</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" tabindex="-1"></a><span class="ex">$</span> cat draft.txt</span></code></pre>
 </div>
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -416,7 +416,7 @@ example,</p>
 <div class="codewrapper sourceCode" id="cb7">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> cat draft.txt draft.txt</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" tabindex="-1"></a><span class="ex">$</span> cat draft.txt draft.txt</span></code></pre>
 </div>
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -449,8 +449,8 @@ actually done this before, using <code>mkdir</code>.</p>
 <div class="codewrapper sourceCode" id="cb9">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> mkdir files</span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> ls</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" tabindex="-1"></a><span class="ex">$</span> mkdir files</span>
+<span id="cb9-2"><a href="#cb9-2" tabindex="-1"></a><span class="ex">$</span> ls</span></code></pre>
 </div>
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -466,9 +466,9 @@ same syntax works for both files and directories:
 <div class="codewrapper sourceCode" id="cb11">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> mv draft.txt files</span>
-<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> cd files</span>
-<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> ls</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" tabindex="-1"></a><span class="ex">$</span> mv draft.txt files</span>
+<span id="cb11-2"><a href="#cb11-2" tabindex="-1"></a><span class="ex">$</span> cd files</span>
+<span id="cb11-3"><a href="#cb11-3" tabindex="-1"></a><span class="ex">$</span> ls</span></code></pre>
 </div>
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -484,8 +484,8 @@ moving files: <code>mv oldName newName</code>.</p>
 <div class="codewrapper sourceCode" id="cb13">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> mv draft.txt newname.testfile</span>
-<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> ls</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb13-1"><a href="#cb13-1" tabindex="-1"></a><span class="ex">$</span> mv draft.txt newname.testfile</span>
+<span id="cb13-2"><a href="#cb13-2" tabindex="-1"></a><span class="ex">$</span> ls</span></code></pre>
 </div>
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -505,9 +505,9 @@ the <code>newname.testfile</code> in our current directory:</p>
 <div class="codewrapper sourceCode" id="cb15">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> ls</span>
-<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> rm newname.testfile</span>
-<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> ls</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb15-1"><a href="#cb15-1" tabindex="-1"></a><span class="ex">$</span> ls</span>
+<span id="cb15-2"><a href="#cb15-2" tabindex="-1"></a><span class="ex">$</span> rm newname.testfile</span>
+<span id="cb15-3"><a href="#cb15-3" tabindex="-1"></a><span class="ex">$</span> ls</span></code></pre>
 </div>
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -521,10 +521,10 @@ using <code>rm -r</code> (the <code>-r</code> option stands for
 <div class="codewrapper sourceCode" id="cb17">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> ls</span>
-<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> rm <span class="at">-r</span> Documents</span>
-<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> rm <span class="at">-r</span> files</span>
-<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> ls</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb17-1"><a href="#cb17-1" tabindex="-1"></a><span class="ex">$</span> ls</span>
+<span id="cb17-2"><a href="#cb17-2" tabindex="-1"></a><span class="ex">$</span> rm <span class="at">-r</span> Documents</span>
+<span id="cb17-3"><a href="#cb17-3" tabindex="-1"></a><span class="ex">$</span> rm <span class="at">-r</span> files</span>
+<span id="cb17-4"><a href="#cb17-4" tabindex="-1"></a><span class="ex">$</span> ls</span></code></pre>
 </div>
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -542,13 +542,13 @@ prompting. <strong>ALWAYS</strong> double check your typing before using
 it… if you leave out the arguments, it will attempt to delete everything
 on your file system that you have permission to delete. So when deleting
 directories be very, very careful.</p>
-<div id="what-happens-when-you-use-rm--rf-accidentally" class="callout callout">
+<div id="callout2" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="what-happens-when-you-use-rm--rf-accidentally" class="callout-inner">
-<h3 class="callout-title">What happens when you use<code>rm -rf</code>accidentally<a class="anchor" aria-label="anchor" href="#what-happens-when-you-use-rm--rf-accidentally"></a>
-</h3>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="what-happens-when-you-use-rm--rf-accidentally">What happens when you use <code>rm -rf</code>
+accidentally<a class="anchor" aria-label="anchor" href="#what-happens-when-you-use-rm--rf-accidentally"></a></h3>
 <div class="callout-content">
 <p>Steam is a major online sales platform for PC video games with over
 125 million users. Despite this, it hasn’t always had the most stable or
@@ -580,15 +580,14 @@ we’ll use <a href="https://www.gnu.org/software/wget/" class="external-link"><
 <div class="codewrapper sourceCode" id="cb19">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> wget https://epcced.github.io/2024-02-22-hpc-shell-brunel/files/bash-lesson.tar.gz</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb19-1"><a href="#cb19-1" tabindex="-1"></a><span class="ex">$</span> wget https://epcced.github.io/2024-02-22-hpc-shell-brunel/files/bash-lesson.tar.gz</span></code></pre>
 </div>
-<div id="problems-with-wget" class="callout callout">
+<div id="callout3" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="problems-with-wget" class="callout-inner">
-<h3 class="callout-title">Problems with<code>wget</code>?<a class="anchor" aria-label="anchor" href="#problems-with-wget"></a>
-</h3>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="problems-with-wget">Problems with <code>wget</code>?<a class="anchor" aria-label="anchor" href="#problems-with-wget"></a></h3>
 <div class="callout-content">
 <p><code>wget</code> is a stand-alone application for downloading things
 over HTTP/HTTPS and FTP/FTPS connections, and it does the job admirably
@@ -601,7 +600,7 @@ try this command instead:</p>
 <div class="codewrapper sourceCode" id="cb20">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> curl <span class="at">-O</span> https://epcced.github.io/2024-02-22-hpc-shell-brunel/files/bash-lesson.tar.gz</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb20-1"><a href="#cb20-1" tabindex="-1"></a><span class="ex">$</span> curl <span class="at">-O</span> https://epcced.github.io/2024-02-22-hpc-shell-brunel/files/bash-lesson.tar.gz</span></code></pre>
 </div>
 <p>For very large downloads, you might consider using <a href="https://aria2.github.io/" class="external-link">Aria2</a>, which has support for
 downloading the same file from multiple mirrors. You have to install it
@@ -610,7 +609,7 @@ neighbors:</p>
 <div class="codewrapper sourceCode" id="cb21">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> aria2c https://epcced.github.io/2024-02-22-hpc-shell-brunel/files/bash-lesson.tar.gz</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb21-1"><a href="#cb21-1" tabindex="-1"></a><span class="ex">$</span> aria2c https://epcced.github.io/2024-02-22-hpc-shell-brunel/files/bash-lesson.tar.gz</span></code></pre>
 </div>
 </div>
 </div>
@@ -679,7 +678,7 @@ the command <code>tar -xvf filename.tar.gz</code>:</p>
 <div class="codewrapper sourceCode" id="cb22">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> tar <span class="at">-xvf</span> bash-lesson.tar.gz</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb22-1"><a href="#cb22-1" tabindex="-1"></a><span class="ex">$</span> tar <span class="at">-xvf</span> bash-lesson.tar.gz</span></code></pre>
 </div>
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -704,13 +703,12 @@ the command <code>tar -xvf filename.tar.gz</code>:</p>
 <span><span class="va">SRR307030_1.fastq</span></span>
 <span><span class="va">SRR307030_2.fastq</span></span></code></pre>
 </div>
-<div id="unzipping-files" class="callout callout">
+<div id="callout4" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="unzipping-files" class="callout-inner">
-<h3 class="callout-title">Unzipping files<a class="anchor" aria-label="anchor" href="#unzipping-files"></a>
-</h3>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="unzipping-files">Unzipping files<a class="anchor" aria-label="anchor" href="#unzipping-files"></a></h3>
 <div class="callout-content">
 <p>We just unzipped a .tar.gz file for this example. What if we run into
 other file formats that we need to unzip? Just use the handy reference
@@ -847,8 +845,8 @@ use like [gitbash][gitbash]
   "url": "https://EPCCed.github.io/2024-02-22-hpc-shell-brunel/14-files.html",
   "identifier": "https://EPCCed.github.io/2024-02-22-hpc-shell-brunel/14-files.html",
   "dateCreated": "2024-02-14",
-  "dateModified": "2024-02-27",
-  "datePublished": "2024-02-27"
+  "dateModified": "2024-03-05",
+  "datePublished": "2024-03-05"
 }
 
   </script><script>
