@@ -272,7 +272,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Working with files</h1>
-        <p>Last updated on 2024-03-12 |
+        <p>Last updated on 2024-03-19 |
         
         <a href="https://github.com/EPCCed/2024-02-22-hpc-shell-brunel/edit/main/episodes/14-files.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
         
@@ -352,12 +352,13 @@ cut a chunk of text lines.</p></li>
 <li><p><kbd>Ctrl</kbd>+<kbd>U</kbd> — paste the cut text line (or
 lines). This command can be repeated to paste the same text
 elsewhere.</p></li>
-</ul><div id="callout1" class="callout">
+</ul><div id="using-vim-as-a-text-editor" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div class="section level3 callout-title callout-inner">
-<h3 class="callout-title" id="using-vim-as-a-text-editor">Using <code>vim</code> as a text editor<a class="anchor" aria-label="anchor" href="#using-vim-as-a-text-editor"></a></h3>
+<div id="using-vim-as-a-text-editor" class="callout-inner">
+<h3 class="callout-title">Using<code>vim</code>as a text editor<a class="anchor" aria-label="anchor" href="#using-vim-as-a-text-editor"></a>
+</h3>
 <div class="callout-content">
 <p>From time to time, you may encounter the <code>vim</code> text
 editor. Although <code>vim</code> isn’t the easiest or most
@@ -542,13 +543,13 @@ prompting. <strong>ALWAYS</strong> double check your typing before using
 it… if you leave out the arguments, it will attempt to delete everything
 on your file system that you have permission to delete. So when deleting
 directories be very, very careful.</p>
-<div id="callout2" class="callout">
+<div id="what-happens-when-you-use-rm--rf-accidentally" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div class="section level3 callout-title callout-inner">
-<h3 class="callout-title" id="what-happens-when-you-use-rm--rf-accidentally">What happens when you use <code>rm -rf</code>
-accidentally<a class="anchor" aria-label="anchor" href="#what-happens-when-you-use-rm--rf-accidentally"></a></h3>
+<div id="what-happens-when-you-use-rm--rf-accidentally" class="callout-inner">
+<h3 class="callout-title">What happens when you use<code>rm -rf</code>accidentally<a class="anchor" aria-label="anchor" href="#what-happens-when-you-use-rm--rf-accidentally"></a>
+</h3>
 <div class="callout-content">
 <p>Steam is a major online sales platform for PC video games with over
 125 million users. Despite this, it hasn’t always had the most stable or
@@ -582,12 +583,13 @@ we’ll use <a href="https://www.gnu.org/software/wget/" class="external-link"><
 </h3>
 <pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb19-1"><a href="#cb19-1" tabindex="-1"></a><span class="ex">$</span> wget https://epcced.github.io/2024-02-22-hpc-shell-brunel/files/bash-lesson.tar.gz</span></code></pre>
 </div>
-<div id="callout3" class="callout">
+<div id="problems-with-wget" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div class="section level3 callout-title callout-inner">
-<h3 class="callout-title" id="problems-with-wget">Problems with <code>wget</code>?<a class="anchor" aria-label="anchor" href="#problems-with-wget"></a></h3>
+<div id="problems-with-wget" class="callout-inner">
+<h3 class="callout-title">Problems with<code>wget</code>?<a class="anchor" aria-label="anchor" href="#problems-with-wget"></a>
+</h3>
 <div class="callout-content">
 <p><code>wget</code> is a stand-alone application for downloading things
 over HTTP/HTTPS and FTP/FTPS connections, and it does the job admirably
@@ -619,7 +621,7 @@ neighbors:</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Install cURL</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <ul><li><p>macOS: <code>curl</code> is pre-installed on macOS. If you must
 have the latest version you can <code>brew install</code> it, but only
@@ -650,7 +652,7 @@ distribution. You can install it through the usual means.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2">Install Aria2</h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <ul><li><p>macOS: <code>aria2c</code> is available through a homebrew.
 <code>brew install aria2</code>.</p></li>
@@ -703,12 +705,13 @@ the command <code>tar -xvf filename.tar.gz</code>:</p>
 <span><span class="va">SRR307030_1.fastq</span></span>
 <span><span class="va">SRR307030_2.fastq</span></span></code></pre>
 </div>
-<div id="callout4" class="callout">
+<div id="unzipping-files" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div class="section level3 callout-title callout-inner">
-<h3 class="callout-title" id="unzipping-files">Unzipping files<a class="anchor" aria-label="anchor" href="#unzipping-files"></a></h3>
+<div id="unzipping-files" class="callout-inner">
+<h3 class="callout-title">Unzipping files<a class="anchor" aria-label="anchor" href="#unzipping-files"></a>
+</h3>
 <div class="callout-content">
 <p>We just unzipped a .tar.gz file for this example. What if we run into
 other file formats that we need to unzip? Just use the handy reference
@@ -823,7 +826,7 @@ use like [gitbash][gitbash]
         <p>Materials licensed under <a href="LICENSE.html">CC-BY 4.0</a> by the authors</p>
         
         <p>Template licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">CC-BY 4.0</a> by <a href="https://carpentries.org/" class="external-link">The Carpentries</a></p>
-        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.16.2" class="external-link">sandpaper (0.16.2)</a>, <a href="https://github.com/carpentries/pegboard/tree/0.7.4" class="external-link">pegboard (0.7.4)</a>, and <a href="https://github.com/carpentries/varnish/tree/1.0.1" class="external-link">varnish (1.0.1)</a></p>
+        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.16.3" class="external-link">sandpaper (0.16.3)</a>, <a href="https://github.com/carpentries/pegboard/tree/0.7.4" class="external-link">pegboard (0.7.4)</a>, and <a href="https://github.com/carpentries/varnish/tree/1.0.1" class="external-link">varnish (1.0.1)</a></p>
 			</div>
 		</footer></div> <!-- / div.container -->
 	<div id="to-top">
@@ -845,8 +848,8 @@ use like [gitbash][gitbash]
   "url": "https://EPCCed.github.io/2024-02-22-hpc-shell-brunel/14-files.html",
   "identifier": "https://EPCCed.github.io/2024-02-22-hpc-shell-brunel/14-files.html",
   "dateCreated": "2024-02-14",
-  "dateModified": "2024-03-12",
-  "datePublished": "2024-03-12"
+  "dateModified": "2024-03-19",
+  "datePublished": "2024-03-19"
 }
 
   </script><script>

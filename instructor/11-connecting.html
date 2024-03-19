@@ -260,7 +260,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Connecting to the remote HPC system</h1>
-        <p>Last updated on 2024-03-12 |
+        <p>Last updated on 2024-03-19 |
         
         <a href="https://github.com/EPCCed/2024-02-22-hpc-shell-brunel/edit/main/episodes/11-connecting.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
         
@@ -423,12 +423,13 @@ should see the two new files: your private key
 (<code>~/.ssh/key_ARCHER2_rsa.pub</code>). If a key is requested by the
 system administrators, the <em>public</em> key is the one to
 provide.</p>
-<div id="callout1" class="callout">
+<div id="private-keys-are-private" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div class="section level3 callout-title callout-inner">
-<h3 class="callout-title" id="private-keys-are-private">PRIVATE KEYS ARE PRIVATE<a class="anchor" aria-label="anchor" href="#private-keys-are-private"></a></h3>
+<div id="private-keys-are-private" class="callout-inner">
+<h3 class="callout-title">PRIVATE KEYS ARE PRIVATE<a class="anchor" aria-label="anchor" href="#private-keys-are-private"></a>
+</h3>
 <div class="callout-content">
 <p>A private key that is visible to anyone but you should be considered
 compromised, and must be destroyed. This includes having improper
@@ -440,12 +441,13 @@ does.</p>
 </div>
 </div>
 </div>
-<div id="callout2" class="callout">
+<div id="further-information" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div class="section level3 callout-title callout-inner">
-<h3 class="callout-title" id="further-information">Further information<a class="anchor" aria-label="anchor" href="#further-information"></a></h3>
+<div id="further-information" class="callout-inner">
+<h3 class="callout-title">Further information<a class="anchor" aria-label="anchor" href="#further-information"></a>
+</h3>
 <div class="callout-content">
 <p>For more information on SSH security and some of the flags set here,
 an excellent resource is <a href="https://stribika.github.io/2015/01/04/secure-secure-shell.html" class="external-link">Secure
@@ -557,13 +559,14 @@ a terminal connected to the remote system</li>
 <li>
 <code>$</code> when it really doesn’t matter which system the
 terminal is connected to.</li>
-</ul><div id="callout3" class="callout">
+</ul><div id="being-certain-which-system-your-terminal-is-connected-to" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div class="section level3 callout-title callout-inner">
-<h3 class="callout-title" id="being-certain-which-system-your-terminal-is-connected-to">Being certain which system your terminal is
-connected to<a class="anchor" aria-label="anchor" href="#being-certain-which-system-your-terminal-is-connected-to"></a></h3>
+<div id="being-certain-which-system-your-terminal-is-connected-to" class="callout-inner">
+<h3 class="callout-title">Being certain which system your terminal is
+connected to<a class="anchor" aria-label="anchor" href="#being-certain-which-system-your-terminal-is-connected-to"></a>
+</h3>
 <div class="callout-content">
 <p>If you ever need to be certain which system a terminal you are using
 is connected to then use the following command:
@@ -571,12 +574,13 @@ is connected to then use the following command:
 </div>
 </div>
 </div>
-<div id="callout4" class="callout">
+<div id="keep-two-terminal-windows-open" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div class="section level3 callout-title callout-inner">
-<h3 class="callout-title" id="keep-two-terminal-windows-open">Keep two terminal windows open<a class="anchor" aria-label="anchor" href="#keep-two-terminal-windows-open"></a></h3>
+<div id="keep-two-terminal-windows-open" class="callout-inner">
+<h3 class="callout-title">Keep two terminal windows open<a class="anchor" aria-label="anchor" href="#keep-two-terminal-windows-open"></a>
+</h3>
 <div class="callout-content">
 <p>It is strongly recommended that you have two terminals open, one
 connected to the local system and one connected to the remote system,
@@ -657,7 +661,7 @@ use like [gitbash][gitbash]
         <p>Materials licensed under <a href="LICENSE.html">CC-BY 4.0</a> by the authors</p>
         
         <p>Template licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">CC-BY 4.0</a> by <a href="https://carpentries.org/" class="external-link">The Carpentries</a></p>
-        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.16.2" class="external-link">sandpaper (0.16.2)</a>, <a href="https://github.com/carpentries/pegboard/tree/0.7.4" class="external-link">pegboard (0.7.4)</a>, and <a href="https://github.com/carpentries/varnish/tree/1.0.1" class="external-link">varnish (1.0.1)</a></p>
+        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.16.3" class="external-link">sandpaper (0.16.3)</a>, <a href="https://github.com/carpentries/pegboard/tree/0.7.4" class="external-link">pegboard (0.7.4)</a>, and <a href="https://github.com/carpentries/varnish/tree/1.0.1" class="external-link">varnish (1.0.1)</a></p>
 			</div>
 		</footer></div> <!-- / div.container -->
 	<div id="to-top">
@@ -679,8 +683,8 @@ use like [gitbash][gitbash]
   "url": "https://EPCCed.github.io/2024-02-22-hpc-shell-brunel/instructor/11-connecting.html",
   "identifier": "https://EPCCed.github.io/2024-02-22-hpc-shell-brunel/instructor/11-connecting.html",
   "dateCreated": "2024-02-14",
-  "dateModified": "2024-03-12",
-  "datePublished": "2024-03-12"
+  "dateModified": "2024-03-19",
+  "datePublished": "2024-03-19"
 }
 
   </script><script>
